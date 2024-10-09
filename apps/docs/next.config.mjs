@@ -14,4 +14,10 @@ const withNextra = nextra({
   themeConfig: './theme.config.tsx',
 });
 
-export default withNextra(nextConfig);
+function isDev() {
+  return process?.env?.NODE_ENV === 'development';
+}
+
+console.log('🚀 ~ isNotDev():', isDev());
+
+export default withNextra(!isDev && nextConfig);

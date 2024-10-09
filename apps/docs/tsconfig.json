@@ -7,6 +7,14 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", "next.config.mjs", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "theme.config.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "next.config.mjs",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "theme.config.tsx",
+    "tailwind.config.js"
+  ],
   "exclude": ["node_modules"]
 }
