@@ -1,7 +1,18 @@
 {
-  "name": "web",
-  "version": "0.1.0",
+  "name": "poc_web",
+  "version": "0.0.1",
+  "description": "Example web app to test branching and versioning on",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paxch/poc_branching-versioning-strategy.git"
+  },
+  "author": "Jonas Schultheiss <jonas.schultheiss@pax.ch>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/paxch/poc_branching-versioning-strategy/issues"
+  },
+  "homepage": "https://github.com/paxch/poc_branching-versioning-strategy#readme",
   "scripts": {
     "dev": "next dev --turbo",
     "build": "next build",
@@ -9,14 +20,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
     "next": "14.2.6",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@pax/eslint-config": "workspace:*",
+    "@pax/typescript-config": "workspace:*",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

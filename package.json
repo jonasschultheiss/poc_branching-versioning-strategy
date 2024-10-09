@@ -1,6 +1,18 @@
 {
   "name": "poc_branching-versioning-strategy",
+  "version": "0.0.1",
+  "description": "Monorepo holding both example app and docs",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paxch/poc_branching-versioning-strategy.git"
+  },
+  "author": "Jonas Schultheiss <jonas.schultheiss@pax.ch>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/paxch/poc_branching-versioning-strategy/issues"
+  },
+  "homepage": "https://github.com/paxch/poc_branching-versioning-strategy#readme",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",

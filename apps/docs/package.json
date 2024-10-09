@@ -1,27 +1,33 @@
 {
-  "name": "docs",
-  "version": "0.1.0",
+  "name": "poc_docs",
+  "version": "0.0.1",
+  "description": "Tool for documentation. ",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paxch/poc_branching-versioning-strategy.git"
+  },
+  "author": "Jonas Schultheiss <jonas.schultheiss@pax.ch>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/paxch/poc_branching-versioning-strategy/issues"
+  },
+  "homepage": "https://github.com/paxch/poc_branching-versioning-strategy#readme",
   "scripts": {
-    "dev": "next dev --turbo --port 3001",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "@repo/ui": "workspace:*",
-    "next": "14.2.6",
-    "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "next": "^13.0.6",
+    "nextra": "^3.0.3",
+    "nextra-theme-docs": "^3.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.6",
-    "typescript": "^5"
+    "@types/node": "20.16.10",
+    "typescript": "^5.6.2"
   }
 }
