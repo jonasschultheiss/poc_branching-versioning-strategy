@@ -15,6 +15,7 @@
   "homepage": "https://github.com/paxch/poc_branching-versioning-strategy#readme",
   "scripts": {
     "build": "turbo build",
+    "build:docs": "turbo run build --filter=@pax/poc_docs",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
