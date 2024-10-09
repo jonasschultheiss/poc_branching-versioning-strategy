@@ -6,7 +6,7 @@ I'm using technologies which I'm more familiar with instead of angular or nx. Bu
 
 ## Project configuration
 
-This repository is a [`turbo`](https://turbo.build/) monorepo has two apps and few packages to share config files for `eslint` and `typescript`. The idea is to create one project for documentation and one for experimenting. A monorepo allows for both to be in the same place, making the context easier to understand.
+This repository is a [`turbo`](https://turbo.build/) monorepo. It has two apps and few packages to share config files for `eslint` and `typescript`. The idea is to create one project for documentation and one for experimenting. A monorepo allows for both to be in the same place, making the context easier to understand.
 
 ### Apps
 
