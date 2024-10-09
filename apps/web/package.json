@@ -1,5 +1,5 @@
 {
-  "name": "poc_web",
+  "name": "@pax/poc_web",
   "version": "0.0.1",
   "description": "Example web app to test branching and versioning on",
   "private": true,

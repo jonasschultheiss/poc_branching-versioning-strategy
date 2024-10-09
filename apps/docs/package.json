@@ -1,5 +1,5 @@
 {
-  "name": "poc_docs",
+  "name": "@pax/poc_docs",
   "version": "0.0.1",
   "description": "Tool for documentation. ",
   "private": true,
@@ -20,11 +20,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^13.0.6",
-    "nextra": "^3.0.3",
-    "nextra-theme-docs": "^3.0.3",
+    "next": "^14.2.6",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "nextra": "^3.0.3",
+    "nextra-theme-docs": "^3.0.3"
   },
   "devDependencies": {
     "@pax/eslint-config": "workspace:*",
