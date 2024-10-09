@@ -1,5 +1,5 @@
 import { TriangleAlert } from 'lucide-react';
-import { useRouter } from 'next/router';
+import { useRouter } from 'nextra/hooks';
 import type { DocsThemeConfig } from 'nextra-theme-docs';
 import { useConfig } from 'nextra-theme-docs';
 
@@ -45,14 +45,24 @@ const config: DocsThemeConfig = {
   banner: {
     dismissible: false,
     key: 'prerelease-warning',
-    content: (
-      <div className="flex flex-row items-center justify-center">
-        <TriangleAlert color="orange" />
-        <span className="block ml-2">Dokumentation nicht final</span>
-      </div>
-    ),
+    content: function useBanner() {
+      const { locale } = useRouter();
+
+      return (
+        <div className="flex flex-row items-center justify-center">
+          <TriangleAlert color="orange" />
+          <span className="block ml-2">
+            {locale === 'en' ? 'Documentation not final' : 'Dokumentation nicht final'}
+          </span>
+        </div>
+      );
+    },
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/paxch/poc_branching-versioning-strategy',
+  i18n: [
+    { locale: 'en', name: 'English' },
+    { locale: 'de', name: 'Deutsch' },
+  ],
 };
 
 export default config;
