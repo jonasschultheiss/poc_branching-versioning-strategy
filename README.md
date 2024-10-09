@@ -1,81 +1,21 @@
-# Turborepo starter
+# PoC - branching & versioning @ B2C Sales
 
-This is an official starter Turborepo.
+See [this jira ticket](https://jira.pax.ch/browse/SWE-25703) for more context.
 
-## Using this example
+I'm using technologies which I'm more familiar with instead of angular or nx. But this doesn't matter, as this PoC puts the focus on other more specific things.
 
-Run the following command:
+## Project configuration
 
-```sh
-npx create-turbo@latest
-```
+This repository is a [`turbo`](https://turbo.build/) monorepo has two apps and few packages to share config files for `eslint` and `typescript`. The idea is to create one project for documentation and one for experimenting. A monorepo allows for both to be in the same place, making the context easier to understand.
 
-## What's inside?
+### Apps
 
-This Turborepo includes the following packages/apps:
+#### docs
 
-### Apps and Packages
+[`docs`](https://github.com/paxch/poc_branching-versioning-strategy/tree/main/apps/docs) is a [`nextra`](https://nextra.site/) is a documentation tool using built with [`Next.js`](https://nextjs.org/), which allows you to quickly and easily set up a beautiful documentation site. Entries are written either in Markdown or [`MDX`](https://mdxjs.com/).
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@pax/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@pax/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@pax/typescript-config`: `tsconfig.json`s used throughout the monorepo
+On it the research will be documented. This allows for experimenting with branching, without complicating things with the documentation.
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+#### web
 
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
-```
-
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+[`web`](https://github.com/paxch/poc_branching-versioning-strategy/tree/main/apps/web) is a scaffolded [`Next.js`](https://nextjs.org/) application. It's used as a basic playground to test out branching and versioning strategies.
