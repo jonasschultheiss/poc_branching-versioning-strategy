@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/paxch/poc_branching-versioning-strategy#readme",
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -27,6 +27,8 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@pax/eslint-config": "workspace:*",
+    "@pax/typescript-config": "workspace:*",
     "@types/node": "20.16.10",
     "typescript": "^5.6.2"
   }

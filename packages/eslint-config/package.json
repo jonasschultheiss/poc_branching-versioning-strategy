@@ -1,7 +1,8 @@
 {
   "name": "@pax/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
+  "license": "UNLICENSED",
   "files": [
     "library.js",
     "next.js",
