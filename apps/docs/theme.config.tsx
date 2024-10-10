@@ -7,7 +7,9 @@ const config: DocsThemeConfig = {
   head: function useHead() {
     const config = useConfig();
     const { route } = useRouter();
-    const image = 'https://jubilant-barnacle-7kplgwg.pages.github.io/og.jpeg';
+    const domain = 'jubilant-barnacle-7kplgwg.pages.github.io';
+    const url = `https://${domain}`;
+    const image = `${url}/og.jpeg`;
 
     const description = config.frontMatter.description || 'Make beautiful websites with Next.js & MDX.';
     const title = config.title + (route === '/' ? '' : ' - Nextra');
@@ -23,8 +25,8 @@ const config: DocsThemeConfig = {
         <meta name="msapplication-TileColor" content="#fff" />
         <meta httpEquiv="Content-Language" content="en" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site:domain" content="nextra.site" />
-        <meta name="twitter:url" content="https://nextra.site" />
+        <meta name="twitter:site:domain" content={domain} />
+        <meta name="twitter:url" content={url} />
         <meta name="apple-mobile-web-app-title" content="Nextra" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon.png" type="image/png" />
@@ -35,8 +37,8 @@ const config: DocsThemeConfig = {
   },
   logo: <span>PoC - branching & versioning @ B2C Sales</span>,
   color: {
-    hue: 81,
-    saturation: 50,
+    hue: 78,
+    saturation: 70,
   },
   project: {
     link: 'https://github.com/paxch/poc_branching-versioning-strategy',
