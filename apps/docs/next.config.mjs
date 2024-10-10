@@ -12,7 +12,7 @@ const prodConfig = {
   ...nextConfig,
   output: 'export',
   images: {
-    unoptimized: true, // mandatory, otherwise won't export
+    unoptimized: true,
   },
   distDir: 'dist',
 };
