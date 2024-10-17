@@ -14,10 +14,10 @@
   },
   "homepage": "https://github.com/paxch/poc_branching-versioning-strategy#readme",
   "scripts": {
-    "build": "turbo build",
-    "build:docs": "turbo run build --filter=@pax/poc_docs",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
+    "build": "nx affected -t build",
+    "build:docs": "nx build docs",
+    "dev": "nx run-many -t dev",
+    "lint": "nx affected -t lint",
     "format": "prettier --write \"**/*.{ts,tsx,md,mdx}\""
   },
   "dependencies": {

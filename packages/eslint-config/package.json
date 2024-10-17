@@ -4,10 +4,13 @@
   "private": true,
   "license": "UNLICENSED",
   "files": [
-    "library.js",
-    "next.js",
-    "react-internal.js"
+    "src/"
   ],
+  "exports": {
+    "./libary": "./src/base.json",
+    "./next": "./src/nextjs.json",
+    "./internal": "./src/internal.json"
+  },
   "devDependencies": {
     "@vercel/style-guide": "^6.0.0",
     "eslint-config-prettier": "^9.1.0",

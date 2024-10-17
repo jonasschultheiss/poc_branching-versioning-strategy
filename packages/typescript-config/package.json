@@ -5,5 +5,12 @@
   "license": "UNLICENSED",
   "publishConfig": {
     "access": "public"
+  },
+  "files": [
+    "src/"
+  ],
+  "exports": {
+    ".": "./src/base.json",
+    "./nextjs": "./src/nextjs.json"
   }
 }

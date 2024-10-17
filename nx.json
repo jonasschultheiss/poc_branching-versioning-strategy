@@ -6,20 +6,23 @@
         "^build"
       ],
       "outputs": [
-        "{projectRoot}/dist, .next"
+        "{projectRoot}/dist",
+        "{projectRoot}/.next",
+        "!{projectRoot}/.next/cache/**"
       ],
       "cache": true
-    },
-    "start": {
-      "dependsOn": [
-        "^start"
-      ]
     },
     "lint": {
       "dependsOn": [
         "^lint"
       ],
       "cache": true
+    },
+    "dev": {
+      "cache": false
+    },
+    "start": {
+      "cache": false
     }
   },
   "defaultBase": "main",
