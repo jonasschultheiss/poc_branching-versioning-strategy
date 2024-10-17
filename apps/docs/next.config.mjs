@@ -4,22 +4,22 @@ import nextra from 'nextra';
 const nextConfig = {
   i18n: {
     locales: ['en', 'de'],
-    defaultLocale: 'en',
-  },
+    defaultLocale: 'en'
+  }
 };
 
 const prodConfig = {
   ...nextConfig,
   output: 'export',
   images: {
-    unoptimized: true,
+    unoptimized: true
   },
-  distDir: 'dist',
+  distDir: 'dist'
 };
 
 const withNextra = nextra({
   theme: 'nextra-theme-docs',
-  themeConfig: './theme.config.tsx',
+  themeConfig: './theme.config.tsx'
 });
 
 function isDev() {

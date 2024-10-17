@@ -38,10 +38,10 @@ const config: DocsThemeConfig = {
   logo: <span>PoC - branching & versioning @ B2C Sales</span>,
   color: {
     hue: 78,
-    saturation: 70,
+    saturation: 70
   },
   project: {
-    link: 'https://github.com/paxch/poc_branching-versioning-strategy',
+    link: 'https://github.com/paxch/poc_branching-versioning-strategy'
   },
   navigation: true,
   banner: {
@@ -58,13 +58,13 @@ const config: DocsThemeConfig = {
           </span>
         </div>
       );
-    },
+    }
   },
-  docsRepositoryBase: 'https://github.com/paxch/poc_branching-versioning-strategy',
+  docsRepositoryBase: 'https://github.com/paxch/poc_branching-versioning-strategy/blob/main/apps/docs',
   i18n: [
     { locale: 'en', name: 'English' },
-    { locale: 'de', name: 'Deutsch' },
-  ],
+    { locale: 'de', name: 'Deutsch' }
+  ]
 };
 
 export default config;

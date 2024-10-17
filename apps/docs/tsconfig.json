@@ -16,5 +16,8 @@
     "theme.config.tsx",
     "tailwind.config.js"
   ],
+  "paths": {
+    "@components/*": ["components/*"]
+  },
   "exclude": ["node_modules"]
 }

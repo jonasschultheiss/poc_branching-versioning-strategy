@@ -1,6 +1,13 @@
 export default {
-  index: 'What this document is about',
-  abstract: 'Abstract',
-  branching: 'Branching strategy',
-  versioning: 'Versioning strategy',
+  docs: {
+    type: 'page',
+    title: 'Documentation'
+  },
+  about: {
+    type: 'page',
+    title: 'About',
+    theme: {
+      typesetting: 'article'
+    }
+  }
 };

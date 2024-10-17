@@ -6,7 +6,7 @@ export default function Page() {
 
   useEffect(() => {
     const locale = router.locale ?? 'en';
-    router.replace(`/${locale}`);
+    router.replace(`/${locale}/docs`);
   }, []);
 
   return null;
