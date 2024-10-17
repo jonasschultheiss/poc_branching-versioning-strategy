@@ -38,3 +38,11 @@ yarn-error.log*
 *.pem
 
 */**/.turbo
+
+
+.nx/cache
+.nx/workspace-data
+
+# Next.js
+.next
+out
