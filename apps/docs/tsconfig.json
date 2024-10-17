@@ -1,5 +1,5 @@
 {
-  "extends": "@pax/typescript-config/nextjs.json",
+  "extends": "@pax/style-guide/typescript/next",
   "compilerOptions": {
     "plugins": [
       {

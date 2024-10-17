@@ -1,15 +1,18 @@
 {
-  "name": "@pax/eslint-config",
+  "name": "@pax/style-guide",
   "version": "0.0.1",
   "private": true,
   "license": "UNLICENSED",
   "files": [
-    "src/"
+    "eslint",
+    "prettier",
+    "typescript"
   ],
   "exports": {
-    "./libary": "./src/base.json",
-    "./next": "./src/nextjs.json",
-    "./internal": "./src/internal.json"
+    "./eslint/*": "./eslint/*.js",
+    "./prettier": "./prettier/index.mjs",
+    "./typescript": "./typescript/tsconfig.base.json",
+    "./typescript/next": "./typescript/tsconfig.nextjs.json"
   },
   "devDependencies": {
     "@vercel/style-guide": "^6.0.0",

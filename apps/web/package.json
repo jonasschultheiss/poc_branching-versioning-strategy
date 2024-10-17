@@ -20,8 +20,5 @@
     "lint": "next lint"
   },
   "dependencies": {},
-  "devDependencies": {
-    "@pax/eslint-config": "workspace:*",
-    "@pax/typescript-config": "workspace:*"
-  }
+  "devDependencies": {}
 }
