@@ -15,9 +15,6 @@ node_modules
 # Testing
 coverage
 
-# Turbo
-.turbo
-
 # Vercel
 .vercel
 
@@ -36,8 +33,6 @@ yarn-error.log*
 # Misc
 .DS_Store
 *.pem
-
-*/**/.turbo
 
 
 .nx/cache

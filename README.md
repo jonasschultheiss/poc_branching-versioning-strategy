@@ -7,8 +7,8 @@ the focus on other more specific things.
 
 ## Project configuration
 
-This repository is a [`turbo`](https://turbo.build/) monorepo. It has two apps and few packages to share config files
-for `eslint` and `typescript`. The idea is to create one project for documentation and one for experimenting. A monorepo
+This repository is a [`Nx`](https://nx.dev/) monorepo. It has two apps and few packages to share config files for
+`eslint` and `typescript`. The idea is to create one project for documentation and one for experimenting. A monorepo
 allows for both to be in the same place, making the context easier to understand.
 
 ### Apps
