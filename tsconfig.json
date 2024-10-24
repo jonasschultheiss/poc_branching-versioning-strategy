@@ -4,6 +4,5 @@
     "composite": true,
     "incremental": true,
     "tsBuildInfoFile": "./.tsbuildinfo"
-  },
-  "references": [{ "path": "./apps/docs/tsconfig.json" }, { "path": "./apps/web/tsconfig.json" }]
+  }
 }

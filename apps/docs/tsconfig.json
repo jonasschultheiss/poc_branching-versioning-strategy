@@ -2,19 +2,8 @@
   "extends": "@pax/style-guide/typescript/next",
   "compilerOptions": {
     "composite": true,
-    "incremental": true,
-    "noEmit": true
+    "incremental": true
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    "theme.config.tsx"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist",
-    ".next"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "theme.config.tsx"],
+  "exclude": ["node_modules", "dist", ".next"]
 }
