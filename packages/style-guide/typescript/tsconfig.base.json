@@ -14,9 +14,6 @@
     "moduleDetection": "force",
     "resolveJsonModule": true,
     "noImplicitAny": true,
-    "target": "ES2023",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true
