@@ -12,6 +12,7 @@
     "noImplicitAny": true,
     "target": "ES2023",
     "module": "NodeNext",
+    "noEmit": true,
     "moduleResolution": "NodeNext",
     "strict": true,
     "esModuleInterop": true,

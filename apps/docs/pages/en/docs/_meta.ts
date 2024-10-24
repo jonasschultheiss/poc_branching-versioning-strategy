@@ -13,7 +13,7 @@ export default {
   "-- Versioning": {
     type: "separator",
     title: "Versioning"
-  },
-  versioning: "Versioning strategy",
-  "versioning/systems-of-versioning": "CAMPLA"
+  }
+  // versioning: "Versioning strategy",
+  // "versioning/systems-of-versioning": "CAMPLA"
 };

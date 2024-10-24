@@ -33,18 +33,6 @@
       "options": {
         "targetName": "eslint:lint"
       }
-    },
-    {
-      "plugin": "@nx/js/typescript",
-      "options": {
-        "typecheck": {
-          "targetName": "typecheck"
-        },
-        "build": {
-          "targetName": "build",
-          "configName": "tsconfig.lib.json"
-        }
-      }
     }
   ],
   "nxCloudId": "6710f7c6911891068a9e4cd1"
