@@ -1,42 +1,0 @@
-
-
-> @pax/poc_docs@0.0.1 build /Users/jonasschultheiss/coding/poc_branching-versioning-strategy/apps/docs
-> next build
-
-- [36minfo[0m [nextra] You have Next.js i18n enabled, read here https://nextjs.org/docs/advanced-features/i18n-routing for the docs.
-- [33mwarn[0m [nextra] Next.js doesn't support i18n by locale folder names.
-When i18n enabled, Nextra unset nextConfig.i18n to `undefined`, use `useRouter` from `nextra/hooks` if you need `locale` or `defaultLocale` values.
-  [1m[38;2;173;127;168m▲ Next.js 14.2.6[39m[22m
-
-[?25l [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m.[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m..[39m[2K[1G [37m[1m [22m[39m Linting and checking validity of types  [36m...[39m[2K[1G[?25h [37m[1m [22m[39m Linting and checking validity of types     [32m[1m✓[22m[39m Linting and checking validity of types 
- [37m[1m [22m[39m Creating an optimized production build ...
-[33mBrowserslist: caniuse-lite is outdated. Please run:
-  npx update-browserslist-db@latest
-  Why you should do it regularly: https://github.com/browserslist/update-db#readme[39m
- [32m[1m✓[22m[39m Compiled successfully
-[?25l [37m[1m [22m[39m Collecting page data  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting page data  [36m..[39m[2K[1G[?25h [37m[1m [22m[39m Collecting page data     [32m[1m✓[22m[39m Collecting page data 
-[?25l [37m[1m [22m[39m Generating static pages (0/9)  [36m[    ][39m[2K[1G[?25h [32m[1m✓[22m[39m Generating static pages (9/9)
-[?25l [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[?25l [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m...[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m.[39m[2K[1G [37m[1m [22m[39m Collecting build traces  [36m.[39m[2K[1G[?25h [37m[1m [22m[39m Collecting build traces     [32m[1m✓[22m[39m Collecting build traces 
-[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m..[39m[2K[1G [37m[1m [22m[39m Finalizing page optimization  [36m...[39m[2K[1G[?25h [37m[1m [22m[39m Finalizing page optimization     [32m[1m✓[22m[39m Finalizing page optimization 
-
-[4mRoute (pages)[24m                              [4mSize[24m     [4mFirst Load JS[24m
-┌   /_app                                  0 B             [37m[1m145 kB[22m[39m
-├ ○ /404                                   181 B           [37m[1m145 kB[22m[39m
-├ ○ /de                                    518 B           [37m[1m150 kB[22m[39m
-├ ○ /en                                    1.03 kB         [37m[1m150 kB[22m[39m
-├ ● /en/_meta                              242 B           [37m[1m145 kB[22m[39m
-├ ○ /en/about                              724 B           [37m[1m150 kB[22m[39m
-├ ○ /en/advanced                           719 B           [37m[1m150 kB[22m[39m
-├ ○ /en/advanced/satori                    773 B           [37m[1m150 kB[22m[39m
-└ ○ /en/another                            1.22 kB         [37m[1m151 kB[22m[39m
-+ First Load JS shared by all              [37m[1m156 kB[22m[39m
-  ├ chunks/framework-ba379a5696ea7312.js   45.2 kB
-  ├ chunks/main-c66c068553128eab.js        32.2 kB
-  ├ chunks/pages/_app-54dc52c7711a97b8.js  65.8 kB
-  ├ css/6791165001bdc619.css               11.6 kB
-  └ other shared chunks (total)            1.75 kB
-
-○  (Static)  prerendered as static content
-●  (SSG)     prerendered as static HTML (uses [36mgetStaticProps[39m)
-
-[?25h

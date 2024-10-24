@@ -5,7 +5,7 @@ export default {
   endOfLine: 'auto',
   arrowParens: 'avoid',
   semi: true,
-  singleQuote: true,
+  singleQuote: false,
   bracketSpacing: true,
   trailingComma: 'none',
   proseWrap: 'always'

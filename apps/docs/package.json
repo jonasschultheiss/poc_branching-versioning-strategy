@@ -18,17 +18,5 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-  },
-  "dependencies": {
-    "@vercel/og": "^0.6.3",
-    "lucide-react": "^0.451.0",
-    "nextra": "^3.0.3",
-    "nextra-theme-docs": "^3.0.3"
-  },
-  "devDependencies": {
-    "@pax/style-guide": "workspace:*",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.4.47",
-    "tailwindcss": "^3.4.13"
   }
 }

@@ -1,3 +1,3 @@
 export default {
-  index: 'Why we need one'
+  index: "Why we need one"
 };

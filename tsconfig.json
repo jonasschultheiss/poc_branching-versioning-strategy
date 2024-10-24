@@ -1,0 +1,9 @@
+{
+  "extends": "@pax/style-guide/typescript",
+  "compilerOptions": {
+    "composite": true,
+    "incremental": true,
+    "tsBuildInfoFile": "./.tsbuildinfo"
+  },
+  "references": [{ "path": "./apps/docs/tsconfig.json" }, { "path": "./apps/web/tsconfig.json" }]
+}

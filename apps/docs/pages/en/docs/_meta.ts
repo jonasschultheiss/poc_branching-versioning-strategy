@@ -1,19 +1,19 @@
 export default {
-  '-- Introduction': {
-    type: 'separator',
-    title: 'Introduction'
+  "-- Introduction": {
+    type: "separator",
+    title: "Introduction"
   },
-  index: 'What this document is about',
-  abstract: 'Abstract',
-  '-- Branching': {
-    type: 'separator',
-    title: 'Branching'
+  index: "What this document is about",
+  abstract: "Abstract",
+  "-- Branching": {
+    type: "separator",
+    title: "Branching"
   },
-  branching: 'Branching strategy',
-  '-- Versioning': {
-    type: 'separator',
-    title: 'Versioning'
+  branching: "Branching strategy",
+  "-- Versioning": {
+    type: "separator",
+    title: "Versioning"
   },
-  versioning: 'Versioning strategy',
-  'versioning/systems-of-versioning': 'CAMPLA'
+  versioning: "Versioning strategy",
+  "versioning/systems-of-versioning": "CAMPLA"
 };

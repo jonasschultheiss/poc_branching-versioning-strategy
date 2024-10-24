@@ -1,13 +1,13 @@
 export default {
   docs: {
-    type: 'page',
-    title: 'Documentation'
+    type: "page",
+    title: "Documentation"
   },
   about: {
-    type: 'page',
-    title: 'About',
+    type: "page",
+    title: "About",
     theme: {
-      typesetting: 'article'
+      typesetting: "article"
     }
   }
 };

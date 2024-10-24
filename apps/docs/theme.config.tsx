@@ -1,18 +1,18 @@
-import { TriangleAlert } from 'lucide-react';
-import { useRouter } from 'nextra/hooks';
-import type { DocsThemeConfig } from 'nextra-theme-docs';
-import { useConfig } from 'nextra-theme-docs';
+import { TriangleAlert } from "lucide-react";
+import { useRouter } from "nextra/hooks";
+import type { DocsThemeConfig } from "nextra-theme-docs";
+import { useConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
   head: function useHead() {
     const config = useConfig();
     const { route } = useRouter();
-    const domain = 'jubilant-barnacle-7kplgwg.pages.github.io';
+    const domain = "jubilant-barnacle-7kplgwg.pages.github.io";
     const url = `https://${domain}`;
     const image = `${url}/og.jpeg`;
 
-    const description = config.frontMatter.description || 'Make beautiful websites with Next.js & MDX.';
-    const title = config.title + (route === '/' ? '' : ' - Nextra');
+    const description = (config.frontMatter.description as string) || "Make beautiful websites with Next.js & MDX.";
+    const title = config.title + (route === "/" ? "" : " - Nextra");
 
     return (
       <>
@@ -41,12 +41,12 @@ const config: DocsThemeConfig = {
     saturation: 70
   },
   project: {
-    link: 'https://github.com/paxch/poc_branching-versioning-strategy'
+    link: "https://github.com/paxch/poc_branching-versioning-strategy"
   },
   navigation: true,
   banner: {
     dismissible: false,
-    key: 'prerelease-warning',
+    key: "prerelease-warning",
     content: function useBanner() {
       const { locale } = useRouter();
 
@@ -54,16 +54,16 @@ const config: DocsThemeConfig = {
         <div className="flex flex-row items-center justify-center">
           <TriangleAlert color="orange" />
           <span className="block ml-2">
-            {locale === 'en' ? 'Documentation not final' : 'Dokumentation nicht final'}
+            {locale === "en" ? "Documentation not final" : "Dokumentation nicht final"}
           </span>
         </div>
       );
     }
   },
-  docsRepositoryBase: 'https://github.com/paxch/poc_branching-versioning-strategy/blob/main/apps/docs',
+  docsRepositoryBase: "https://github.com/paxch/poc_branching-versioning-strategy/blob/main/apps/docs",
   i18n: [
-    { locale: 'en', name: 'English' },
-    { locale: 'de', name: 'Deutsch' }
+    { locale: "en", name: "English" },
+    { locale: "de", name: "Deutsch" }
   ]
 };
 

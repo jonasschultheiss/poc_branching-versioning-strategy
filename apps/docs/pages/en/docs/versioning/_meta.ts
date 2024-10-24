@@ -1,3 +1,3 @@
 export default {
-  index: 'The problem'
+  index: "The problem"
 };

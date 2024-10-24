@@ -9,16 +9,9 @@
     "typescript"
   ],
   "exports": {
-    "./eslint/*": "./eslint/*.js",
+    "./eslint/*": "./eslint/*.mjs",
     "./prettier": "./prettier/index.mjs",
     "./typescript": "./typescript/tsconfig.base.json",
     "./typescript/next": "./typescript/tsconfig.nextjs.json"
-  },
-  "devDependencies": {
-    "@vercel/style-guide": "^6.0.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-only-warn": "^1.1.0",
-    "@typescript-eslint/parser": "^8.9.0",
-    "@typescript-eslint/eslint-plugin": "^8.9.0"
   }
 }

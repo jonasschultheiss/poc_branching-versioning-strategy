@@ -1,1 +1,1 @@
-export {default} from "@pax/style-guide/prettier";
+export { default } from "@pax/style-guide/prettier";

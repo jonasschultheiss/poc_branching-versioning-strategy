@@ -1,13 +1,22 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Base",
-  "extends": ["@vercel/style-guide/typescript/node20"],
+  "extends": "@vercel/style-guide/typescript/node20",
   "compilerOptions": {
     "declaration": true,
     "declarationMap": true,
     "incremental": false,
     "isolatedModules": true,
     "moduleDetection": "force",
-    "resolveJsonModule": true
-  }
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "target": "ES2023",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_modules", "dist"]
 }

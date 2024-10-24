@@ -18,7 +18,5 @@
     "build": "nx next:build",
     "start": "nx next:start",
     "lint": "next lint"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+  }
 }
